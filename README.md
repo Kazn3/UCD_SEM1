@@ -3,7 +3,7 @@
 
 *Projectteam: Warre De Vriendt; Kasper Stas*
 
-Datum
+24/01/2024
 
 ## Samenvatting
 Max 200 woorden. Beschrijf je project in het kort, waarbij je deze vragen zeker beantwoordt:
