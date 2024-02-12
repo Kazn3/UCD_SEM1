@@ -14,9 +14,6 @@ Ook is gebleken dat kinderen liever een product gebruiken dan een app, dus is er
 
 Aan de hand van deze producten is het de bedoeling om kinderen meer te verleiden om buiten te spelen.
 
-<p>
-  img="images/boomDevice"
-</p>
 
 
 ## Introductie
