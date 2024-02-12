@@ -1,5 +1,5 @@
-# Projecttitel
-*Omschrijving van je concept in 1 zin* 
+# TreeSync
+*Een speelbos met een open plek in het midden dat omgevormd wordt naar een slim speelbos aan de hand van TreeSync.* 
 
 *Projectteam: Naam 1; Naam 2*
 
