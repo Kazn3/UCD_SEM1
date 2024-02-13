@@ -142,7 +142,7 @@ Deze kleine extra apparaten zijn in prototype proces. Zo werden er enkele vormen
         <td>Extra device groot prototype:</td>
     </tr>
     <tr>
-        <td><img src="images/prototypesExtraDevices.png" width="100%"/></td>
+        <td><img src="images/extraDevicesPrototypes.png" width="100%"/></td>
         <td> <img src="images/grootExtraDevice.png" width="100%"/></td>
     </tr>
 </table>
