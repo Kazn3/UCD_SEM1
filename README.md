@@ -20,8 +20,8 @@ Aan de hand van deze producten is het de bedoeling om kinderen meer te verleiden
         <td>Boom device:</td>
     </tr>
     <tr>
-        <td><img src="images/afroller.jpg" width="49%"/></td>
-        <td> <img src="images/boomDevice.jpg" width="49%"/></td>
+        <td><img src="images/afroller.jpg" width="100%"/></td>
+        <td> <img src="images/boomDevice.jpg" width="100%"/></td>
     </tr>
 </table>
 
@@ -142,8 +142,8 @@ Deze kleine extra apparaten zijn in prototype proces. Zo werden er enkele vormen
         <td>Extra device groot prototype:</td>
     </tr>
     <tr>
-        <td><img src="images/prototypesExtraDevices.png" width="49%"/></td>
-        <td> <img src="images/grootExtraDevice.png" width="49%"/></td>
+        <td><img src="images/prototypesExtraDevices.png" width="100%"/></td>
+        <td> <img src="images/grootExtraDevice.png" width="100%"/></td>
     </tr>
 </table>
 
@@ -155,8 +155,8 @@ Voor de andere apparatuur zoals de toestellen in de bomen en het scorebord/de be
         <td>Scorebord bediening prototype:</td>
     </tr>
     <tr>
-        <td><img src="images/tekeningScorebordBediening.png" width="49%"/></td>
-        <td> <img src="images/prototypeScorebordBediening.png" width="49%"/></td>
+        <td><img src="images/scorebordBedieningSchets.png" width="100%"/></td>
+        <td> <img src="images/prototypeScorebordBediening.png" width="100%"/></td>
     </tr>
 </table>
 
@@ -168,8 +168,8 @@ Van de interface van de kiosk is er een schema gemaakt over hoe dit eruit zou zi
         <td>Prototype interface in protopie:</td>
     </tr>
     <tr>
-        <td><img src="images/uiPrototype.png" width="49%"/></td>
-        <td> <img src="images/ipadUi.png" width="49%"/></td>
+        <td><img src="images/uiSchets.png" width="100%"/></td>
+        <td> <img src="images/ipadUi.png" width="100%"/></td>
     </tr>
 </table>
 
