@@ -160,22 +160,60 @@ Voor de andere apparatuur zoals de toestellen in de bomen en het scorebord/de be
     </tr>
 </table>
 
+Van de interface van de kiosk is er een schema gemaakt over hoe dit eruit zou zien. Na het schema uit te tekenen, aan te passen waar nodig en te verbeteren is deze interface gemaakt in protopie. Net zoals de andere apparatuur zal deze bij de start van het volgende semester meteen getest kunnen worden. Dit zal gebeuren door een tablet in een doos te plakken om de kiosk te simuleren en de gebruiker zonder enige aanwijzing enkele opdrachten te laten uitvoeren. Een van deze opdrachten zou kunnen zijn ”Ga naar de contactform en vul deze in” of “Ga naar de lijst met spelletjes met extra devices en kom te weten wat extra devices zijn”. De testers kunnen dan luidop zeggen wat ze denken. Deze realtime feedback helpt dan ook om de interface te optimaliseren. 
+
+<table border="1">
+    <tr>
+        <td>Schema interface:</td>
+        <td>Prototype interface in protopie:</td>
+    </tr>
+    <tr>
+        <td><img src="images/uiPrototype.png" width="49%"/></td>
+        <td> <img src="images/ipadUi.png" width="49%"/></td>
+    </tr>
+</table>
+
+Aangezien ons product niet vasthangt aan een paar spelletjes is het mogelijk om dit regelmatig te updaten met nieuwe soorten spelletjes.
 
 ## Bill of materials
-- Welk
-- Materiaal
-- Heb
-- Je
-- Nu
-- Nodig
-- Voor
-- Je
-- Prototype
+<ul>
+    <li>Arduino</li>
+    <li>NFC sensor arduino</li>
+    <li>NFC tags</li>
+    <li>Arduino laser</li>
+    <li>Arduino lamp</li>
+    <li>Hout</li>
+    <li>Karton</li>
+    <li>Tablet</li>
+</ul>
+
 
 ## Kritische reflectie
-Max. 500 woorden
+
+### Gebruikersfeedback
+
+Er zijn slechts vier interviews uitgevoerd met kinderen tussen de tien en veertien jaar oud. Dit aantal kan mogelijk te beperkt zijn om een representatief beeld te krijgen van de doelgroep. We zouden het aantal interviews moeten vergroten om een breder scala aan meningen en behoeften te verzamelen.
+
+
+### Diepgaander begrip van de problemen
+Hoewel de interviews en benchmarking enkele belangrijke inzichten hebben opgeleverd, zou een meer diepgaande analyse van de onderliggende redenen waarom kinderen niet buiten spelen en waarom bestaande oplossingen niet werken, nuttig kunnen zijn. Het identificeren van diepere oorzaken kan helpen bij het ontwikkelen van effectievere oplossingen.
+
+### Evolutie van prototypen
+Het is goed dat er wordt gewerkt aan prototypes, maar er moet aandacht worden besteed aan het iteratieve proces en de evolutie van de prototypen. Er moet voor gezorgd worden dat de feedback van gebruikers wordt geïntegreerd om de prototypes continu te verbeteren en aan te passen. Dit zou een pingpong proces moeten zijn
+
+### Duurzaamheid en onderhoud
+In de verdere ontwikkeling van het project kan er aandacht besteed worden om het speelbos zo duurzaam mogelijk aan te passen. Hoe wordt ervoor gezorgd dat de technologische aspecten langdurig functioneel blijven, en hoe wordt duurzaamheid geïntegreerd in het ontwerp? Dit zijn belangrijke vragen voor het duurzame aspect.
+
+### Budget en haalbaarheid
+Hoewel er een lijst is van materialen zoals Arduino en NFC-sensoren, ontbreekt informatie over het budget en de algehele haalbaarheid van het project. Het is belangrijk om realistisch te zijn over de beschikbare middelen en te zorgen voor een kosteneffectieve implementatie.
+
+### Documentatie en verslaglegging
+Er moet voor gezorgd worden dat er meer wordt gedocumenteerd. De kleinste dingen die gedaan en bedacht worden moeten neergeschreven worden. Dit is beter voor de documentatie en om informatie op te nemen voor lezers.
+
 
 ## Bronnen
-Voeg je volledige bibliografie toe van bronnen naarwaar je verwees.
+Van Acker, R. (2022). Onderzocht: waarom spelen kinderen niet meer buiten? Geraadpleegd op 17 oktober 2023 via https://www.gezondleven.be/nieuws/onderzocht-waarom-spelen-onze-kinderen-niet-meer-buiten#:~:text=Sommige%20kinderen%20in%20deze%2021,cognitieve%20ontwikkeling%20van%20onze%20kinderen
+
 
 ## Bijlagen
+Miro bord: https://miro.com/app/board/uXjVNZS7Mho=/?share_link_id=664656507937
