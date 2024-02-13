@@ -17,7 +17,7 @@ Aan de hand van deze producten is het de bedoeling om kinderen meer te verleiden
 <table border="1">
     <tr>
         <td>Extra device:</td>
-        <td>Boom device</td>
+        <td>Boom device:</td>
     </tr>
     <tr>
         <td><img src="images/afroller.jpg" width="49%"/></td>
@@ -139,11 +139,24 @@ Deze kleine extra apparaten zijn in prototype proces. Zo werden er enkele vormen
 <table border="1">
     <tr>
         <td>Extra devices prototypes:</td>
-        <td>Extra device groot prototype</td>
+        <td>Extra device groot prototype:</td>
     </tr>
     <tr>
         <td><img src="images/prototypesExtraDevices.png" width="49%"/></td>
         <td> <img src="images/grootExtraDevice.png" width="49%"/></td>
+    </tr>
+</table>
+
+Voor de andere apparatuur zoals de toestellen in de bomen en het scorebord/de bediening daarvan zijn er eerste fase prototypes. Deze zijn klaar om het volgende semester meteen te testen.
+
+<table border="1">
+    <tr>
+        <td>Scorebord bediening schets:</td>
+        <td>Scorebord bediening prototype:</td>
+    </tr>
+    <tr>
+        <td><img src="images/tekeningScorebordBediening.png" width="49%"/></td>
+        <td> <img src="images/prototypeScorebordBediening.png" width="49%"/></td>
     </tr>
 </table>
 
