@@ -162,16 +162,14 @@ Voor de andere apparatuur zoals de toestellen in de bomen en het scorebord/de be
 
 Van de interface van de kiosk is er een schema gemaakt over hoe dit eruit zou zien. Na het schema uit te tekenen, aan te passen waar nodig en te verbeteren is deze interface gemaakt in protopie. Net zoals de andere apparatuur zal deze bij de start van het volgende semester meteen getest kunnen worden. Dit zal gebeuren door een tablet in een doos te plakken om de kiosk te simuleren en de gebruiker zonder enige aanwijzing enkele opdrachten te laten uitvoeren. Een van deze opdrachten zou kunnen zijn ”Ga naar de contactform en vul deze in” of “Ga naar de lijst met spelletjes met extra devices en kom te weten wat extra devices zijn”. De testers kunnen dan luidop zeggen wat ze denken. Deze realtime feedback helpt dan ook om de interface te optimaliseren. 
 
-<table border="1">
-    <tr>
-        <td>Schema interface:</td>
-        <td>Prototype interface in protopie:</td>
-    </tr>
-    <tr>
-        <td><img src="images/uiSchets.png" width="100%"/></td>
-        <td> <img src="images/ipadUi.png" width="100%"/></td>
-    </tr>
-</table>
+
+Schema interface:
+<img src="images/uiSchets.png" width="100%"/>
+
+Prototype interface in protopie:
+
+<img src="images/ipadUi.png" width="50%"/>
+
 
 Aangezien ons product niet vasthangt aan een paar spelletjes is het mogelijk om dit regelmatig te updaten met nieuwe soorten spelletjes.
 
