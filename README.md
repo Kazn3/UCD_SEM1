@@ -175,12 +175,18 @@ Aangezien ons product niet vasthangt aan een paar spelletjes is het mogelijk om 
 
 ## Develop 1
 ### Doelstellingen
-tekst over de doelstellingen
+De antropometrie wordt op enkele vlakken getest. Een daarvan is de hoogte van het scherm. 
+
 ### Materiaal en methoden
+Deze hoogte werd getest aan de hand van een testprotocol, deze is te vinden op onze miro[^1]. Hierbij staan ook de uitslagen van dit testprotocol. Er wordt gebruik gemaakt van een kartonnen bord met daarop vijf targets. Deze vijf targets dienen om alle uiteinden van het scherm goed mee in rekening te kunnen houden. 
+
 #### Anthropometrische analyse
-tekst over de analyse
+Deze testen worden verwerkt door te kijken welke hoogtes het meest populair waren relatief gezien van de gebruiker. Door deze meting wordt duidelijk dat de onderkant van het scherm op zo'n 20cm vanaf de bovenkant van het hoofd als het best werd beschouwd.
+
 ### Resultaten
-### Conclusies en implicaties
+Om ervoor te zorgen dat het scherm voor zowel grote kinderen en volwassenen als kleine of jongere kinderen gebruikt kan worden zou er gebruik gemaakt kunnen worden van een trapje. De groep werd opgesplitst van 6 tem 10 jaar en 11 tem 18 jaar. Uit deze twee groepen werd de gemiddelde grootte genomen. Deze grootte is voor de groep van 6 tem 10 jaar 1,29 meter en voor de groep van 11 tem 18 jaar 1,63 meter. Met deze gegevens is in Siemens NX een model getekend dat rekening houdt met de relatieve afstand van ongeveer 20cm vanaf de onderkant van het scherm tot de gemiddelde grootte. 
+
+<img src="images/antropometrieNX.png" width="50%"/>
 
 ## Bill of materials
 <ul>
@@ -223,4 +229,4 @@ Van Acker, R. (2022). Onderzocht: waarom spelen kinderen niet meer buiten? Geraa
 
 
 ## Bijlagen
-Miro bord: https://miro.com/app/board/uXjVNZS7Mho=/?share_link_id=664656507937
+[^1] Miro bord: https://miro.com/app/board/uXjVNZS7Mho=/?share_link_id=664656507937
