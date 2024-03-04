@@ -173,6 +173,15 @@ Prototype interface in protopie:
 
 Aangezien ons product niet vasthangt aan een paar spelletjes is het mogelijk om dit regelmatig te updaten met nieuwe soorten spelletjes.
 
+## Develop 1
+### Doelstellingen
+tekst over de doelstellingen
+### Materiaal en methoden
+#### Anthropometrische analyse
+tekst over de analyse
+### Resultaten
+### Conclusies en implicaties
+
 ## Bill of materials
 <ul>
     <li>Arduino</li>
