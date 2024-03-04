@@ -178,7 +178,7 @@ Aangezien ons product niet vasthangt aan een paar spelletjes is het mogelijk om 
 De antropometrie wordt op enkele vlakken getest. Een daarvan is de hoogte van het scherm. 
 
 ### Materiaal en methoden
-Deze hoogte werd getest aan de hand van een testprotocol, deze is te vinden op onze miro[^1]. Hierbij staan ook de uitslagen van dit testprotocol. Er wordt gebruik gemaakt van een kartonnen bord met daarop vijf targets. Deze vijf targets dienen om alle uiteinden van het scherm goed mee in rekening te kunnen houden. 
+Deze hoogte werd getest aan de hand van een testprotocol, deze is te vinden op onze mirop[^1]. Hierbij staan ook de uitslagen van dit testprotocol. Er wordt gebruik gemaakt van een kartonnen bord met daarop vijf targets. Deze vijf targets dienen om alle uiteinden van het scherm goed mee in rekening te kunnen houden. 
 
 #### Anthropometrische analyse
 Deze testen worden verwerkt door te kijken welke hoogtes het meest populair waren relatief gezien van de gebruiker. Door deze meting wordt duidelijk dat de onderkant van het scherm op zo'n 20cm vanaf de bovenkant van het hoofd als het best werd beschouwd.
