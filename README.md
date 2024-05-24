@@ -222,6 +222,8 @@ Er zijn enkele aandachtspunten die verbetering behoeven. Ondanks dat Botty het o
 Deze links gaan naar het onderzoeksprotocol en onderzoeksanalyse:
 [protocol](https://docs.google.com/document/d/1JpjgBWS6LFF9600NPYNERdoF86IvWlf7sU40pV-NP4Q/edit?usp=sharing)
 [analyse](https://docs.google.com/document/d/1Zow_8habC9IyiRw9DNJKjcFhiSg4zX_Mt5tP3w73XHE/edit?usp=sharing)
+
+
 ## Develop 3
 ### Doelstellingen
 <ul>
@@ -233,19 +235,22 @@ Deze links gaan naar het onderzoeksprotocol en onderzoeksanalyse:
 ### Materiaal en methoden
 Voor deze test wordt er gefocust op het pad dat de gebruiker moet afleggen en welke moeilijkheden hij hier tegenkomt. Voor de test gebruiken we het finale prototype van de kiosk. Deze wordt in het atelier en het park geplaatst om hier gebruikers te interviewen. Er wordt gevraagd aan de gebruiker om het spel bos stratego te starten en een extra device uit te lenen. Er wordt ook een hiërarchische taakanalyse opgesteld om de gebruiker te helpen wanneer deze vast zit. De test verloopt via een op voorhand opgesteld protocol.
 
-protocol: https://docs.google.com/document/d/1yJ--0lQlO85FdUew0HOrR5PwwOXQKq8iLAhmNbGJT4Q/edit?usp=sharing
+
 
 hiërarchische taakanalyse:
 <img src="images/hierarchische_taakanalyse.jpg" width="100%"/>
 
 ### Resultaten
 De resultaten van de test kwamen relatief goed uit. Er zou nog aan het uiterlijk van de kiosk verbeterd kunnen worden zodat deze goed thuishoort in het bos. Op deze manier voelt het minder vreemd aan dat de kiosk in het bos staat. Het trapje dat onderaan uit de kiosk zou moeten schuiven moet zeker goed zichtbaar zijn. Op deze manier kijken mensen die het nodig hebben er niet naast en kan het zeker van pas komen. Ook was het moeilijk te zien wat er met het trapje gedaan moet worden als het niet meer in gebruik is.
-resultaten: https://docs.google.com/document/d/1noZEcYMVDDPxSVda9_DFvMpgcpc8J4m8UgEqnyYDaYs/edit?usp=sharing
+
 
 Na het nemen van de test zijn er nog wat ontwerpbeslissingen genomen. 
 Bovenaan in de kiosk wordt een plantenbak geplaatst. Hier kunnen lange hangplanten geplaatst worden zodat de kiosk beter in zijn omgeving past. Op de kiosk moet het trapje goed aangeduid worden zodat het duidelijk is dat deze uitgeschoven moet worden. Bovenaan het trapje wordt een pijl naar binnen geplaatst zodat het duidelijk is dat het trapje na gebruik terug in de paal kan geschoven worden.
 Omdat deze test als laatste viel hebben we deze niet allemaal in praktijk kunnen brengen maar deze blijven nog steeds even belangrijk om mee te pakken naar de toekomst.
 
+Deze links gaan naar het onderzoeksprotocol en onderzoeksanalyse:
+[protocol](https://docs.google.com/document/d/1yJ--0lQlO85FdUew0HOrR5PwwOXQKq8iLAhmNbGJT4Q/edit?usp=sharing)
+[analyse](https://docs.google.com/document/d/1noZEcYMVDDPxSVda9_DFvMpgcpc8J4m8UgEqnyYDaYs/edit?usp=sharing)
 
 ## Extra testen en brainstorms
 ### Boom devices
@@ -266,7 +271,9 @@ Later zijn er tijdens de lessen sprekers van verschillende bedrijven langs gekom
 
 ### Scorebord bediening
 Na het eeste semester is er verder gewerkt op de bediening van het scorenbord. een nieuwe wave van het prototype is gemaakt en zorgt voor verduidelijking op het houten paneel.
+
 <img src="images/scoreBord.jpg" width="75%"/>
+
 In develop 1 wordt er onderzocht op welke hoogte het bedieningspaneel bevestigd zal worden. Voor het bedieningspaneel te laten werken is er ook een code geschreven in arduino:
 ```py
 #include <Wire.h>
