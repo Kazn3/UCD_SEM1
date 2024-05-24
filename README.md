@@ -609,19 +609,6 @@ De Boom devices zijn uitgerust met een batterij binnenin, een zonnepaneel boveno
 Het scorebord wordt aangestuurd door een bedieningspaneel. Je kan de punten er op aanduiden en een tijdsduur instellen en controleren. Het bedieningspaneel met de knoppen wordt op een hoogte van 125 centimeter. Deze hoogte is bepaald uit develop 2. Het laatste prototype hiervan bestaat uit een houten opstelling en een arduinocode die het aansturen van de score controleert.
 <img src="images/scoreBord2.png" width="100%"/>
 
-## Bill of materials
-<ul>
-    <li>Arduino</li>
-    <li>NFC sensor arduino</li>
-    <li>NFC tags</li>
-    <li>Arduino laser</li>
-    <li>Arduino lamp</li>
-    <li>Hout</li>
-    <li>Karton</li>
-    <li>Tablet</li>
-</ul>
-
-
 ## Kritische reflectie
 
 ### Gebruikersfeedback
