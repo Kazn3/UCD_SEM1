@@ -229,8 +229,333 @@ Na het nemen van de test zijn er nog wat ontwerpbeslissingen genomen.
 Bovenaan in de kiosk wordt een plantenbak geplaatst. Hier kunnen lange hangplanten geplaatst worden zodat de kiosk beter in zijn omgeving past. Op de kiosk moet het trapje goed aangeduid worden zodat het duidelijk is dat deze uitgeschoven moet worden. Bovenaan het trapje wordt een pijl naar binnen geplaatst zodat het duidelijk is dat het trapje na gebruik terug in de paal kan geschoven worden.
 Omdat deze test als laatste viel hebben we deze niet allemaal in praktijk kunnen brengen maar deze blijven nog steeds even belangrijk om mee te pakken naar de toekomst.
 
-### Conclusies
 
+## Extra testen en brainstorms
+### Boom devices
+Voor sommige spelletjes zijn er extra devices nodig die in de bomen zullen hangen. Deze kunnen uitgerust worden met verschillende apparatuur zoals lasers,lampen,  sensoren en luidsprekers. In de eerste wave prototypes hebben we de luidspreker ontworpen met alles eraan om een uniform ontwerp te hebben. Elk device was dus uitgerust met de hierboven genoemde technologie. 
+
+Later zijn er tijdens de lessen sprekers van verschillende bedrijven langs gekomen. Bij een persoonlijk gesprek daarna werd ons gevraagd waarom we alle technologie in elk device hebben gestoken. Hierdoor hebben we verder onderzoek gedaan naar onze spelletjes en wat er nodig was bij elk spel. We kwamen hier tot de conclusie dat er maar 1 stuk technologie per boom device nodig is. We hebben toen gekozen om een uniforme doos te maken met het zonnepaneel van boven en een batterij van binnen. Onderaan de doos hangt een klikbevestiging waar de apparatuur aan bevestigd kan worden. Als er een defect is, zal enkel de doos of apparatuur hersteld moeten worden. Voor het welzijn van de bomen wordt er ook gezorgd dat de extra devices met een rekbare strap worden bevestigd aan de bomen. Dit zorgt ervoor dat de boom geen schade zal oplopen bij het verder groeien door de jaren heen.
+
+<table border="1">
+    <tr>
+        <td>Beginfase:</td>
+        <td>Eindproduct:</td>
+    </tr>
+    <tr>
+        <td><img src="images/boomDevice.jpg" width="75%"/></td>
+        <td> <img src="images/boomDeviceEind.jpg" width="100%"/></td>
+    </tr>
+</table>
+
+### Scorebord bediening
+Na het eeste semester is er verder gewerkt op de bediening van het scorenbord. een nieuwe wave van het prototype is gemaakt en zorgt voor verduidelijking op het houten paneel.
+<img src="images/scoreBord.jpg" width="75%"/>
+In develop 2 wordt er onderzocht op welke hoogte het bedieningspaneel bevestigd zal worden. Voor het bedieningspaneel te laten werken is er ook een code geschreven in arduino:
+```py
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+
+// Definieer pinnen voor de knoppen
+const int knopA = 10; // Groene knop voor punten toevoegen
+const int knopB = 9;  // Rode knop voor punten verminderen
+const int knopC = 3;  // Gele knop voor het resetten van punten
+const int knopD = 6; // Groene knop voor punten toevoegen
+const int knopE = 4;  // Rode knop voor punten verminderen
+const int knopF = 2;  // Gele knop voor het resetten van punten
+
+int punten1 = 0; // Variabele voor het bijhouden van punten
+int punten2 = 0;
+unsigned long laatsteUpdateTijd = 0; // Variabele om bij te houden wanneer het LCD voor het laatst is bijgewerkt
+
+LiquidCrystal_I2C lcd(0x27, 16, 2); // Initialiseer LCD-scherm
+
+void setup() {
+  lcd.begin(16, 2); // Initialiseer het LCD-scherm
+  pinMode(knopA, INPUT_PULLUP); // Stel de pinnen van de knoppen in als invoer met interne pull-up weerstand
+  pinMode(knopB, INPUT_PULLUP);
+  pinMode(knopC, INPUT_PULLUP);
+  pinMode(knopD, INPUT_PULLUP);
+  pinMode(knopE, INPUT_PULLUP);
+  pinMode(knopF, INPUT_PULLUP);
+}
+
+void loop() {
+  // Lees de status van de knoppen en pas de punten dienovereenkomstig aan
+  if (digitalRead(knopA) == LOW && millis() - laatsteUpdateTijd >= 500) {
+    punten1 += 1; // Voeg een punt toe bij indrukken van knop A
+    laatsteUpdateTijd = millis(); // Bijwerken van de tijd van laatste update
+  }
+
+  if (digitalRead(knopB) == LOW && millis() - laatsteUpdateTijd >= 500) {
+    punten1 -= 1; // Verminder een punt bij indrukken van knop B
+    laatsteUpdateTijd = millis(); // Bijwerken van de tijd van laatste update
+  }
+
+  if (digitalRead(knopC) == LOW && millis() - laatsteUpdateTijd >= 500) { 
+    punten1 = 0; // Reset punten naar 0 bij indrukken van knop C
+    lcd.clear();
+    laatsteUpdateTijd = millis(); // Bijwerken van de tijd van laatste update
+  }
+
+    if (digitalRead(knopD) == LOW && millis() - laatsteUpdateTijd >= 500) {
+    punten2 += 1; // Voeg een punt toe bij indrukken van knop D
+    laatsteUpdateTijd = millis(); // Bijwerken van de tijd van laatste update
+  }
+
+  if (digitalRead(knopE) == LOW && millis() - laatsteUpdateTijd >= 500) {
+    punten2 -= 1; // Verminder een punt bij indrukken van knop E
+    laatsteUpdateTijd = millis(); // Bijwerken van de tijd van laatste update
+  }
+
+  if (digitalRead(knopF) == LOW && millis() - laatsteUpdateTijd >= 500) { 
+    punten2 = 0; // Reset punten naar 0 bij indrukken van knop F
+    lcd.clear();
+    laatsteUpdateTijd = millis(); // Bijwerken van de tijd van laatste update
+  }
+
+
+  lcd.setCursor(0, 0); 
+  lcd.print("Team 1");
+  lcd.setCursor(8, 0); 
+  lcd.print("Team 2");
+  lcd.setCursor(0, 1);
+  printDigits(punten1); 
+  lcd.setCursor(8, 1); 
+  printDigits(punten2); 
+}
+
+// Functie om punten weer te geven met een voorloopnul indien nodig
+void printDigits(int digits) {
+  if (digits < 10)
+    lcd.print("0");
+  lcd.print(digits);
+}
+```
+
+Een fysieke schakeling is niet opgebouwd door tijd tekort en een focus op de kiosk. Er is als compensatie wel een schakeling gemaakt in wokwi om toch te kunnen aantonen hoe het in zijn werk zou moeten gaan. [link naar wokwi](https://wokwi.com/projects/398777561305473025)
+
+### Interactief bos
+Door het jaar is het soms eens aan bod gekomen om het bos ook zo leerzaam mogelijk te maken. Na wat brainstormen over hoe we dit best mogelijk kunnen maken, hebben we gekozen voor QR-codes. Aan de hand van QR-codes doorheen het bos te hangen kunnen mensen deze scannen en zo bijleren. Er kan informatie afgebeeld en voorgelezen worden. Er kunnen ook via de gsm geluiden worden afgespeeld om zo vogels en dieren te leren herkennen aan de hand van geluid. Dit zorgt er ook voor dat het bos toegankelijker wordt voor meerdere mensen, bijvoorbeeld blinden.
+
+### Bos stratego
+Er is 1 spel uitgewerkt met extra devices. Bos stratego is een spel dat met meerdere gespeeld wordt met elk een extra device. De devices zijn uitgerust met NFC tags en readers. Het spel wordt gespeeld zonder kaartjes, je cijfer zal verschijnen aan de hand van een aantal leds op het extra device. Door het naast elkaar houden van de devices communiceren deze met elkaar en krijg je automatisch de uitkomst van wie er gewonnen is. Het krijgen van een nieuw cijfer gebeurd als je terug in de buurt komt van je kamp. Je device zal dit automatisch weten omdat deze in contact staat met de boom devices. Hier is alvast een eerste code van het spel. Deze code leest de NFC tag.
+```py
+#include <SPI.h>
+#include <MFRC522.h>
+
+/*Using Hardware SPI of Arduino */
+/*MOSI (11), MISO (12) and SCK (13) are fixed */
+/*You can configure SS and RST Pins*/
+#define SS_PIN 10  /* Slave Select Pin */
+#define RST_PIN 9  /* Reset Pin */
+
+/* Create an instance of MFRC522 */
+MFRC522 mfrc522(SS_PIN, RST_PIN);
+/* Create an instance of MIFARE_Key */
+MFRC522::MIFARE_Key key;          
+
+/* Set the block to which we want to write data */
+/* Be aware of Sector Trailer Blocks */
+int blockNum = 2;  
+
+
+/* Create another array to read data from Block */
+/* Legthn of buffer should be 2 Bytes more than the size of Block (16 Bytes) */
+byte bufferLen = 18;
+byte readBlockData[18];
+
+MFRC522::StatusCode status;
+
+
+void setup() 
+{
+  /* Initialize serial communications with the PC */
+  Serial.begin(9600);
+  /* Initialize SPI bus */
+  SPI.begin();
+  /* Initialize MFRC522 Module */
+  mfrc522.PCD_Init();
+  Serial.println("start_programma_lezen");
+}
+
+void loop()
+{
+  /* Prepare the ksy for authentication */
+  /* All keys are set to FFFFFFFFFFFFh at chip delivery from the factory */
+  for (byte i = 0; i < 6; i++)
+  {
+    key.keyByte[i] = 0xFF;
+  }
+  /* Look for new cards */
+  /* Reset the loop if no new card is present on RC522 Reader */
+  if ( ! mfrc522.PICC_IsNewCardPresent())
+  {
+    return;
+  }
+  
+  /* Select one of the cards */
+  if ( ! mfrc522.PICC_ReadCardSerial()) 
+  {
+    return;
+  }
+  Serial.print("\n");
+  Serial.println("**Card Detected**");
+  
+  Serial.print("\n");
+  
+   /* Read data from the same block */
+   Serial.print("\n");
+   Serial.println("Reading from Data Block...");
+   ReadDataFromBlock(blockNum, readBlockData);
+   /* If you want to print the full memory dump, uncomment the next line */
+   //mfrc522.PICC_DumpToSerial(&(mfrc522.uid));
+   
+   /* Print the data read from block */
+   Serial.print("\n");
+   Serial.print("Data in Block:");
+   Serial.print(blockNum);
+   Serial.print(" --> ");
+   for (int j=0 ; j<16 ; j++)
+   {
+     Serial.write(readBlockData[j]);
+   }
+   Serial.print("\n");
+}
+
+
+void ReadDataFromBlock(int blockNum, byte readBlockData[]) 
+{
+  /* Authenticating the desired data block for Read access using Key A */
+  byte status = mfrc522.PCD_Authenticate(MFRC522::PICC_CMD_MF_AUTH_KEY_A, blockNum, &key, &(mfrc522.uid));
+
+  if (status != MFRC522::STATUS_OK)
+  {
+     Serial.print("Authentication failed for Read: ");
+     Serial.println(mfrc522.GetStatusCodeName(status));
+     return;
+  }
+  else
+  {
+    Serial.println("Authentication success");
+  }
+
+  /* Reading data from the Block */
+  status = mfrc522.MIFARE_Read(blockNum, readBlockData, &bufferLen);
+  if (status != MFRC522::STATUS_OK)
+  {
+    Serial.print("Reading failed: ");
+    Serial.println(mfrc522.GetStatusCodeName(status));
+    return;
+  }
+  else
+  {
+    Serial.println("Block was read successfully");  
+  }
+  
+}
+
+```
+Om het spel te testen wordt ook het schrijven getest. Dit gebeurd aan de hand van volgende code
+```py
+#include <SPI.h>
+#include <MFRC522.h>
+
+/*Using Hardware SPI of Arduino */
+/*MOSI (11), MISO (12) and SCK (13) are fixed */
+/*You can configure SS and RST Pins*/
+#define SS_PIN 10  /* Slave Select Pin */
+#define RST_PIN 9  /* Reset Pin */
+
+/* Create an instance of MFRC522 */
+MFRC522 mfrc522(SS_PIN, RST_PIN);
+/* Create an instance of MIFARE_Key */
+MFRC522::MIFARE_Key key;          
+
+/* Set the block to which we want to write data */
+/* Be aware of Sector Trailer Blocks */
+int blockNum = 2;  
+/* Create an array of 16 Bytes and fill it with data */
+/* This is the actual data which is going to be written into the card */
+byte blockData [16] = {"schrijftest"};
+
+
+MFRC522::StatusCode status;
+
+
+
+void setup() 
+{
+  /* Initialize serial communications with the PC */
+  Serial.begin(9600);
+  /* Initialize SPI bus */
+  SPI.begin();
+  /* Initialize MFRC522 Module */
+  mfrc522.PCD_Init();
+  Serial.println("start_programma_schrijven");
+}
+
+void loop()
+{      
+   /* Prepare the ksy for authentication */
+  /* All keys are set to FFFFFFFFFFFFh at chip delivery from the factory */
+  for (byte i = 0; i < 6; i++)
+  {
+    key.keyByte[i] = 0xFF;
+  }
+  /* Look for new cards */
+  /* Reset the loop if no new card is present on RC522 Reader */
+  if ( ! mfrc522.PICC_IsNewCardPresent())
+  {
+    return;
+  }
+  
+  /* Select one of the cards */
+  if ( ! mfrc522.PICC_ReadCardSerial()) 
+  {
+    return;
+  }
+  /* Call 'WriteDataToBlock' function, which will write data to the block */
+  Serial.print("\n");
+  Serial.println("Writing to Data Block...");
+  WriteDataToBlock(blockNum, blockData);
+  delay(1000);  
+}
+
+void WriteDataToBlock(int blockNum, byte blockData[]) 
+ {
+   /* Authenticating the desired data block for write access using Key A */
+   status = mfrc522.PCD_Authenticate(MFRC522::PICC_CMD_MF_AUTH_KEY_A, blockNum, &key, &(mfrc522.uid));
+   if (status != MFRC522::STATUS_OK)
+   {
+     Serial.print("Authentication failed for Write: ");
+     Serial.println(mfrc522.GetStatusCodeName(status));
+     return;
+   }
+   else
+   {
+     Serial.println("Authentication success");
+   }
+
+  
+   /* Write data to the block */
+   status = mfrc522.MIFARE_Write(blockNum, blockData, 16);
+   if (status != MFRC522::STATUS_OK)
+   {
+     Serial.print("Writing to Block failed: ");
+     Serial.println(mfrc522.GetStatusCodeName(status));
+     return;
+   }
+   else
+   {
+     Serial.println("Data was written into Block successfully");
+   }
+
+ }
+
+
+
+
+```
 
 
 ## Bill of materials
