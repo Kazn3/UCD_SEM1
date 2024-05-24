@@ -617,27 +617,13 @@ Het scorebord wordt aangestuurd door een bedieningspaneel. Je kan de punten er o
 <img src="images/scoreBord2.png" width="100%"/>
 
 ## Kritische reflectie
+De afgelopen twee semesters waren gevuld met uitdagingen die ons telkens weer deden nadenken over hoe we ons product verder konden verbeteren.
 
-### Gebruikersfeedback
+Gedurende het jaar hebben we vooruitgang geboekt in het afnemen van interviews en uitvoeren van tests. In het tweede semester hebben we hier meer nadruk op gelegd, wat een positieve invloed had op de ontwikkeling van ons product. Hoewel niet alle tests vlekkeloos verliepen, zagen we tegen het einde van het semester duidelijke verbeteringen.
 
-Er zijn slechts vier interviews uitgevoerd met kinderen tussen de tien en veertien jaar oud. Dit aantal kan mogelijk te beperkt zijn om een representatief beeld te krijgen van de doelgroep. We zouden het aantal interviews moeten vergroten om een breder scala aan meningen en behoeften te verzamelen.
+In het tweede semester lag de focus voornamelijk op de ontwikkeling van de kiosk. Dit leidde tot gezonde vooruitgang in het ontwerpproces van de kiosk, maar ging enigszins ten koste van andere aspecten van ons product. Door deze ervaring realiseerden we ons hoe essentieel een goede planning is voor een succesvol ontwerpproces.
 
-
-### Diepgaander begrip van de problemen
-Hoewel de interviews en benchmarking enkele belangrijke inzichten hebben opgeleverd, zou een meer diepgaande analyse van de onderliggende redenen waarom kinderen niet buiten spelen en waarom bestaande oplossingen niet werken, nuttig kunnen zijn. Het identificeren van diepere oorzaken kan helpen bij het ontwikkelen van effectievere oplossingen.
-
-### Evolutie van prototypen
-Het is goed dat er wordt gewerkt aan prototypes, maar er moet aandacht worden besteed aan het iteratieve proces en de evolutie van de prototypen. Er moet voor gezorgd worden dat de feedback van gebruikers wordt geïntegreerd om de prototypes continu te verbeteren en aan te passen. Dit zou een pingpong proces moeten zijn
-
-### Duurzaamheid en onderhoud
-In de verdere ontwikkeling van het project kan er aandacht besteed worden om het speelbos zo duurzaam mogelijk aan te passen. Hoe wordt ervoor gezorgd dat de technologische aspecten langdurig functioneel blijven, en hoe wordt duurzaamheid geïntegreerd in het ontwerp? Dit zijn belangrijke vragen voor het duurzame aspect.
-
-### Budget en haalbaarheid
-Hoewel er een lijst is van materialen zoals Arduino en NFC-sensoren, ontbreekt informatie over het budget en de algehele haalbaarheid van het project. Het is belangrijk om realistisch te zijn over de beschikbare middelen en te zorgen voor een kosteneffectieve implementatie.
-
-### Documentatie en verslaglegging
-Er moet voor gezorgd worden dat er meer wordt gedocumenteerd. De kleinste dingen die gedaan en bedacht worden moeten neergeschreven worden. Dit is beter voor de documentatie en om informatie op te nemen voor lezers.
-
+Daarnaast hebben we dit semester kennisgemaakt met de wereld van Arduino. De mogelijkheden die Arduino biedt, zijn eindeloos. Het werken met Arduino was een plezierige en leerzame ervaring. Dit project heeft ons er diepgaand mee laten kennismaken, wat echter ook enkele risico's met zich meebracht. Zoals eerder aangegeven, is een goede tijdsplanning cruciaal, en dat was hier een uitdaging. Het is gemakkelijk om er vele uren in te steken zonder aanzienlijke vooruitgang te boeken.
 
 ## Bronnen
 Van Acker, R. (2022). Onderzocht: waarom spelen kinderen niet meer buiten? Geraadpleegd op 17 oktober 2023 via https://www.gezondleven.be/nieuws/onderzocht-waarom-spelen-onze-kinderen-niet-meer-buiten#:~:text=Sommige%20kinderen%20in%20deze%2021,cognitieve%20ontwikkeling%20van%20onze%20kinderen
