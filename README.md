@@ -570,7 +570,7 @@ void WriteDataToBlock(int blockNum, byte blockData[])
  }
 ```
 
-## Prototypes
+## Finale prototypes
 Hier worden de finale prototypes nog overlopen
 ### Kiosk
 Voor de kiosk is een aluminium behuizing gekozen om verschillende redenen. Het geeft een moderne look en is weerbestendig waardoor de kiosk duurzamer zou moeten zijn. Bovenaan de kiosk wordt een plantenbak geplaatst waar hangplanten in geplaatst worden zodat de kiosk ook thuishoort in zijn omgeving. 
