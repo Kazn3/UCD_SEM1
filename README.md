@@ -43,9 +43,9 @@ vriendengroepen tegelijk of samen spelen zonder last te hebben van elkaar.
 
 
 ## Methodologie
-<img src="images/tijdlijn.png" width="100%"/>
+<img src="images/methodologie.jpg" width="100%"/>
 
-Er is gebruikgemaakt van de double diamond methode. Hierboven ziet u de tijdlijn van het proces. Er werd begonnen met de vraag: Hoe kunnen we slimme producten gebruiken om vriendengroepen samen naar buiten te krijgen om in de natuur te spelen? Met hierin genoeg variatie om ze niet te laten vervelen. 
+Er is gebruikgemaakt van de triple diamond methode. Hierboven ziet u de tijdlijn van het proces. Er werd begonnen met de vraag: Hoe kunnen we slimme producten gebruiken om vriendengroepen samen naar buiten te krijgen om in de natuur te spelen? Met hierin genoeg variatie om ze niet te laten vervelen. 
 
 Eerst werd er gedivergeerd en onderzoek gedaan. Er werd vooral onderzoek gedaan naar benchmarks. Wat bestaat er al om kinderen meer naar buiten te krijgen aan de hand van slimme producten? Er werden ook interviews gedaan om te zien hoeveel kinderen al buiten komen, of ze dit überhaupt zien zitten om met slimme producten te doen, wat ze allemaal leuk vinden bij het buitenspelen, etc. Uit deze informatie werden ideeën gegenereerd en werd er gekeken wat goede en haalbare oplossingen waren. Daarna werd er gedefinieerd, er is voor 1 oplossing gekozen en daar wordt verder meegewerkt. We noemen de oplossing TreeSync. De volgende fase is de prototype fase. Eerst hebben we gekeken wat er geprototyped kan worden. Nadat dit gebeurd was konden we beginnen met het langzaam opbouwen van de prototypes. Op die manier zijn we erin geslaagd om al op enkele domeinen een prototype te maken. Bij de extra speel devices is het meeste al geprototyped en door gebruikerstesten gegaan. Op 1 december werd het beste prototype gekozen (het tweede keer definiëren), om dan met het gekozen ontwerp de tweede fase in te stappen. We zitten nu met een paar prototypes die door één wave zijn gegaan en één prototype dat door twee waves is gegaan. Met deze prototypes gaan we verder in het tweede semester.
 
@@ -236,7 +236,7 @@ Voor deze test wordt er gefocust op het pad dat de gebruiker moet afleggen en we
 protocol: https://docs.google.com/document/d/1yJ--0lQlO85FdUew0HOrR5PwwOXQKq8iLAhmNbGJT4Q/edit?usp=sharing
 
 hiërarchische taakanalyse:
-<img src="images/hierarchische_taakanalyse.png" width="100%"/>
+<img src="images/hierarchische_taakanalyse.jpg" width="100%"/>
 
 ### Resultaten
 De resultaten van de test kwamen relatief goed uit. Er zou nog aan het uiterlijk van de kiosk verbeterd kunnen worden zodat deze goed thuishoort in het bos. Op deze manier voelt het minder vreemd aan dat de kiosk in het bos staat. Het trapje dat onderaan uit de kiosk zou moeten schuiven moet zeker goed zichtbaar zijn. Op deze manier kijken mensen die het nodig hebben er niet naast en kan het zeker van pas komen. Ook was het moeilijk te zien wat er met het trapje gedaan moet worden als het niet meer in gebruik is.
