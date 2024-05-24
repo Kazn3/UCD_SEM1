@@ -551,13 +551,32 @@ void WriteDataToBlock(int blockNum, byte blockData[])
    }
 
  }
-
-
-
-
 ```
 
+##Prototypes
+Hier worden de finale prototypes nog overlopen
+### Kiosk
+Voor de kiosk is een aluminium behuizing gekozen om verschillende redenen. Het geeft een moderne look en is weerbestendig waardoor de kiosk duurzamer zou moeten zijn. Bovenaan de kiosk wordt een plantenbak geplaatst waar hangplanten in geplaatst worden zodat de kiosk ook thuishoort in zijn omgeving. 
+Bij een ideaal ontwerp wordt er een groter scherm gebruikt en zijn er meerdere kastjes voor extra devices. Dit is bij ons finaal prototype niet aanwezig omdat we hier de materialen voor hadden. Ook zal het opstap trapje in de kiosk geschoven zijn.
+De kiosk is voor het laatste prototype met een simpel interface uitgerust met nog niet alle opties en uitleg. Hier is weer naar de bos stratego gewerkt.
+<table border="1">
+    <tr>
+        <td><img src="images/kiosk1.jpg" width="100%"/></td>
+        <td> <img src="images/kiosk2.jpg" width="100%"/></td>
+        <td> <img src="images/kiosk3.jpg" width="100%"/></td>
+    </tr>
+</table>
 
+### Extra Devices
+De devices zouden uiteindelijk uit een hard plastiek bestaan en zijn uitgerust met een hoop technologie. Er zijn 9 leds aanwezig als indicaties om spelletjes mee te spelen. De devices zijn ook uitgerust met NFC tags en readers zodat ze met elkaar kunnen communiceren. Er kan ook gecommuniceerd worden met boom devices die in de buurt hangen. Om ervoor te zorgen dat de gebruiker zorgzamer om gaat met de devices worden ze uitgeleend aan de hand van een account. wanneer er een defect device wordt teruggebracht kan er zo getraceerd worden wie de schade heeft aangericht. Om het kwijtraken van de devices te voorkomen kunnen de devices als uitrekbare sleutelhanger gebruikt worden. Hierdoor zal het device nogsteeds bruikbaar zijn zonder dat het los op de grond kan vallen. Het is de gebruikers eigen verantwoordelijkheid om het device te bevestigen aan zichzelf.
+
+<table border="1">
+    <tr>
+        <td><img src="images/extraDevice1.jpg" width="100%"/></td>
+        <td> <img src="images/extraDevice2.jpg" width="100%"/></td>
+        <td> <img src="images/extraDevice3.jpg" width="100%"/></td>
+    </tr>
+</table>
 ## Bill of materials
 <ul>
     <li>Arduino</li>
