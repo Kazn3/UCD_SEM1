@@ -219,7 +219,7 @@ Voor deze test wordt er gefocust op het pad dat de gebruiker moet afleggen en we
 protocol: https://docs.google.com/document/d/1yJ--0lQlO85FdUew0HOrR5PwwOXQKq8iLAhmNbGJT4Q/edit?usp=sharing
 
 hiërarchische taakanalyse:
-<img src="images/hierarchische_taakanalyse.png" width="50%"/>
+<img src="images/hierarchische_taakanalyse.png" width="100%"/>
 
 ### Resultaten
 De resultaten van de test kwamen relatief goed uit. Er zou nog aan het uiterlijk van de kiosk verbeterd kunnen worden zodat deze goed thuishoort in het bos. Op deze manier voelt het minder vreemd aan dat de kiosk in het bos staat. Het trapje dat onderaan uit de kiosk zou moeten schuiven moet zeker goed zichtbaar zijn. Op deze manier kijken mensen die het nodig hebben er niet naast en kan het zeker van pas komen. Ook was het moeilijk te zien wat er met het trapje gedaan moet worden als het niet meer in gebruik is.
