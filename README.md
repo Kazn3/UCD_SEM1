@@ -205,6 +205,33 @@ Ook is de duidelijkheid van de knoppen binnen de app een pijnpunt. Hoewel gebrui
 ### Conclusies
 Er zijn enkele aandachtspunten die verbetering behoeven. Ondanks dat Botty het ontwerp aantrekkelijker maakt, komt de kleursamenstelling enigszins saai over en mist de interface een speelse uitstraling. Daarnaast zijn de pop-ups niet in lijn met het thema van de app, wat de coherentie verstoort. Dit geeft de aanleiding om de opmaak van de pop-ups te herbekijken. Tot slot worden de knoppen niet als knop beschouwd. Om de knoppen een duidelijker signaal te geven is er voor gekozen om een schaduwrand er aan toe te voegen. Deze schaduwrand geeft de knop een 3d gevoel wat gebruikers rapper gaat vertellen dat ze indrukbaar zijn.
 
+## Develop 3
+### Doelstellingen
+<ul>
+    <li>Het verbeteren van het finaal prototype</li>
+    <li>Een volledig functionele kiosk laten gebruiken door een gebruiker</li>
+    <li>Kijken welke kleine details nog aangepast moeten worden</li>
+</ul>
+
+### Materiaal en methoden
+Voor deze test wordt er gefocust op het pad dat de gebruiker moet afleggen en welke moeilijkheden hij hier tegenkomt. Voor de test gebruiken we het finale prototype van de kiosk. Deze wordt in het atelier en het park geplaatst om hier gebruikers te interviewen. Er wordt gevraagd aan de gebruiker om het spel bos stratego te starten en een extra device uit te lenen. Er wordt ook een hiërarchische taakanalyse opgesteld om de gebruiker te helpen wanneer deze vast zit. De test verloopt via een op voorhand opgesteld protocol.
+
+protocol: https://docs.google.com/document/d/1yJ--0lQlO85FdUew0HOrR5PwwOXQKq8iLAhmNbGJT4Q/edit?usp=sharing
+
+hiërarchische taakanalyse:
+<img src="images/hierarchische_taakanalyse.png" width="50%"/>
+
+### Resultaten
+De resultaten van de test kwamen relatief goed uit. Er zou nog aan het uiterlijk van de kiosk verbeterd kunnen worden zodat deze goed thuishoort in het bos. Op deze manier voelt het minder vreemd aan dat de kiosk in het bos staat. Het trapje dat onderaan uit de kiosk zou moeten schuiven moet zeker goed zichtbaar zijn. Op deze manier kijken mensen die het nodig hebben er niet naast en kan het zeker van pas komen. Ook was het moeilijk te zien wat er met het trapje gedaan moet worden als het niet meer in gebruik is.
+resultaten: https://docs.google.com/document/d/1noZEcYMVDDPxSVda9_DFvMpgcpc8J4m8UgEqnyYDaYs/edit?usp=sharing
+
+Na het nemen van de test zijn er nog wat ontwerpbeslissingen genomen. 
+Bovenaan in de kiosk wordt een plantenbak geplaatst. Hier kunnen lange hangplanten geplaatst worden zodat de kiosk beter in zijn omgeving past. Op de kiosk moet het trapje goed aangeduid worden zodat het duidelijk is dat deze uitgeschoven moet worden. Bovenaan het trapje wordt een pijl naar binnen geplaatst zodat het duidelijk is dat het trapje na gebruik terug in de paal kan geschoven worden.
+Omdat deze test als laatste viel hebben we deze niet allemaal in praktijk kunnen brengen maar deze blijven nog steeds even belangrijk om mee te pakken naar de toekomst.
+
+### Conclusies
+
+
 
 ## Bill of materials
 <ul>
