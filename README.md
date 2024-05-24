@@ -188,6 +188,16 @@ Om ervoor te zorgen dat het scherm voor zowel grote kinderen en volwassenen als 
 
 <img src="images/antropometrieNX.png" width="50%"/>
 
+## Develop 2
+### Doelstellingen
+Om op het einde van de opdracht een zo gebruiksvriendelijk mogelijk ontwerp te maken worden er expert reviews en usability testen uitgevoerd. Deze testen geven meer duidelijkheid over de pijnpunten in het product. Aan de hand van Nielsen's heuristieken wordt er een score gegeven op de functies van het product. Deze scores helpen bij het optimaliseren van het ontwerp.
+
+### Materiaal en methoden
+Door middel van figma is er een interface gemaakt. Voor de expert reviews krijgen de gebruikers twee opdrachten die ze moeten volooien. Na het uitvoeren van deze opdrachten krijgen de gebruikers een evaluatieformulier voorgeschoteld. Beide opdrachten hebben aan de hand van Nielsen's heuristieken vragen waarop de gebruiker een score moet geven van 1-5. Hierbij is 1 zeer slecht en 5 zeer goed. 
+
+### Conceptueel model
+### Resultaten
+
 ## Bill of materials
 <ul>
     <li>Arduino</li>
