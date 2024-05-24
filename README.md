@@ -25,6 +25,8 @@ Aan de hand van deze producten is het de bedoeling om kinderen meer te verleiden
     </tr>
 </table>
 
+[<img src="/images/thumbnail.jpg">](https://youtu.be/m9WB8esa1qU)
+
 ## Introductie
 Een groot hedendaags probleem is dat kinderen te weinig buitenspelen. Uit onderzoek blijkt dat in 2019 maar liefst 70% minder kinderen op straat
 speelden dan in 1983 (Van Acker, 2022). Dit is een aanzienlijk groot verschil. Wat hier een grote impact op heeft is de plaats waar kinderen wonen. Veel kinderen hebben geen
@@ -40,12 +42,15 @@ onderverdeling in verschillende categorieën. Op deze manier kunnen meerdere
 vriendengroepen tegelijk of samen spelen zonder last te hebben van elkaar.
 
 
-## Methdologie
+## Methodologie
 <img src="images/tijdlijn.png" width="100%"/>
 
 Er is gebruikgemaakt van de double diamond methode. Hierboven ziet u de tijdlijn van het proces. Er werd begonnen met de vraag: Hoe kunnen we slimme producten gebruiken om vriendengroepen samen naar buiten te krijgen om in de natuur te spelen? Met hierin genoeg variatie om ze niet te laten vervelen. 
 
 Eerst werd er gedivergeerd en onderzoek gedaan. Er werd vooral onderzoek gedaan naar benchmarks. Wat bestaat er al om kinderen meer naar buiten te krijgen aan de hand van slimme producten? Er werden ook interviews gedaan om te zien hoeveel kinderen al buiten komen, of ze dit überhaupt zien zitten om met slimme producten te doen, wat ze allemaal leuk vinden bij het buitenspelen, etc. Uit deze informatie werden ideeën gegenereerd en werd er gekeken wat goede en haalbare oplossingen waren. Daarna werd er gedefinieerd, er is voor 1 oplossing gekozen en daar wordt verder meegewerkt. We noemen de oplossing TreeSync. De volgende fase is de prototype fase. Eerst hebben we gekeken wat er geprototyped kan worden. Nadat dit gebeurd was konden we beginnen met het langzaam opbouwen van de prototypes. Op die manier zijn we erin geslaagd om al op enkele domeinen een prototype te maken. Bij de extra speel devices is het meeste al geprototyped en door gebruikerstesten gegaan. Op 1 december werd het beste prototype gekozen (het tweede keer definiëren), om dan met het gekozen ontwerp de tweede fase in te stappen. We zitten nu met een paar prototypes die door één wave zijn gegaan en één prototype dat door twee waves is gegaan. Met deze prototypes gaan we verder in het tweede semester.
+
+
+In het tweede semester gebruiken we nieuwe methodologieën voor het uitvoeren van testen, waaronder een heuristische evaluatie gebaseerd op Nielsen's heuristieken. Deze set van tien principes, ontwikkeld door Jakob Nielsen, helpt veelvoorkomende gebruiksproblemen te identificeren. Het gebruik van Nielsen's heuristieken in ons ontwerpproces biedt een gestructureerde benadering, verhoogt de bruikbaarheid en gebruikerservaring, en identificeert problemen.
 
 ## Discovery
 
@@ -175,18 +180,27 @@ Aangezien ons product niet vasthangt aan een paar spelletjes is het mogelijk om 
 
 ## Develop 1
 ### Doelstellingen
-De antropometrie wordt op enkele vlakken getest. Een daarvan is de hoogte van het scherm. 
+De antropometrie wordt op enkele vlakken getest. Een daarvan is de hoogte van het scherm, de ander is de hoogte van de bediening van het scorebord.
 
 ### Materiaal en methoden
-Deze hoogte werd getest aan de hand van een testprotocol, deze is te vinden op onze miro[^1]. Hierbij staan ook de uitslagen van dit testprotocol. Er wordt gebruik gemaakt van een kartonnen bord met daarop vijf targets. Deze vijf targets dienen om alle uiteinden van het scherm goed mee in rekening te kunnen houden. 
+Deze hoogte van het scherm werd getest aan de hand van een testprotocol, deze is te vinden op onze miro[^1]. Hierbij staan ook de uitslagen van dit testprotocol. Er wordt gebruik gemaakt van een kartonnen bord met daarop vijf targets. Deze vijf targets dienen om alle uiteinden van het scherm goed mee in rekening te kunnen houden. 
+
+Voor de hoogte van de bediening van het scorebord wordt het prototype met de knoppen op gebruikt. De gebruikers moeten dan hun voorkeur geven aan hoogte waarop dit zou moeten hangen.
 
 #### Anthropometrische analyse
-Deze testen worden verwerkt door te kijken welke hoogtes het meest populair waren relatief gezien van de gebruiker. Door deze meting wordt duidelijk dat de onderkant van het scherm op zo'n 20cm vanaf de bovenkant van het hoofd als het best werd beschouwd.
+Deze testen worden verwerkt door te kijken welke hoogtes het meest populair waren relatief gezien van de gebruiker. Door deze meting wordt duidelijk dat de onderkant van het scherm op zo'n 20cm vanaf de bovenkant van het hoofd als het best werd beschouwd. Bij de bediening van het scorebord worden de verschillende hoogtes die aangegeven zijn door de gebruikers bekeken. Van deze waarde wordt het gemiddelde genomen.
 
 ### Resultaten
 Om ervoor te zorgen dat het scherm voor zowel grote kinderen en volwassenen als kleine of jongere kinderen gebruikt kan worden zou er gebruik gemaakt kunnen worden van een trapje. De groep werd opgesplitst van 6 tem 10 jaar en 11 tem 18 jaar. Uit deze twee groepen werd de gemiddelde grootte genomen. Deze grootte is voor de groep van 6 tem 10 jaar 1,29 meter en voor de groep van 11 tem 18 jaar 1,63 meter. Met deze gegevens is in Siemens NX een model getekend dat rekening houdt met de relatieve afstand van ongeveer 20cm vanaf de onderkant van het scherm tot de gemiddelde grootte. 
 
+Het gemiddelde voor de bediening van het scorebord geeft een hoogte van 127cm. Hiernaast werd ook een benchmark gedaan voor de hoogte van een deurbel. Deze gaf aan dat de ideale hoogte 120-130cm is (electro-colli, 2023). Door deze twee infobronnen samen te voegen is de keuze gemaakt om de bediening van het scorebord op een hoogte van 125cm te hangen.
+
+
 <img src="images/antropometrieNX.png" width="50%"/>
+
+Deze links gaan naar het onderzoeksprotocol en onderzoeksanalyse:
+[protocol](https://docs.google.com/document/d/1bPBm9zT4DTrtKLr9F2QQbLYk5rvzX8b78w-nyLWi9Vo/edit?usp=sharing)
+[analyse](https://docs.google.com/document/d/1CmB170c9KkNxsDit4ds0lzrzXazLMY2tYkJLyz0bhfM/edit?usp=sharing)
 
 ## Develop 2
 ### Doelstellingen
@@ -205,6 +219,9 @@ Ook is de duidelijkheid van de knoppen binnen de app een pijnpunt. Hoewel gebrui
 ### Conclusies
 Er zijn enkele aandachtspunten die verbetering behoeven. Ondanks dat Botty het ontwerp aantrekkelijker maakt, komt de kleursamenstelling enigszins saai over en mist de interface een speelse uitstraling. Daarnaast zijn de pop-ups niet in lijn met het thema van de app, wat de coherentie verstoort. Dit geeft de aanleiding om de opmaak van de pop-ups te herbekijken. Tot slot worden de knoppen niet als knop beschouwd. Om de knoppen een duidelijker signaal te geven is er voor gekozen om een schaduwrand er aan toe te voegen. Deze schaduwrand geeft de knop een 3d gevoel wat gebruikers rapper gaat vertellen dat ze indrukbaar zijn.
 
+Deze links gaan naar het onderzoeksprotocol en onderzoeksanalyse:
+[protocol](https://docs.google.com/document/d/1JpjgBWS6LFF9600NPYNERdoF86IvWlf7sU40pV-NP4Q/edit?usp=sharing)
+[analyse](https://docs.google.com/document/d/1Zow_8habC9IyiRw9DNJKjcFhiSg4zX_Mt5tP3w73XHE/edit?usp=sharing)
 ## Develop 3
 ### Doelstellingen
 <ul>
@@ -232,7 +249,7 @@ Omdat deze test als laatste viel hebben we deze niet allemaal in praktijk kunnen
 
 ## Extra testen en brainstorms
 ### Boom devices
-Voor sommige spelletjes zijn er extra devices nodig die in de bomen zullen hangen. Deze kunnen uitgerust worden met verschillende apparatuur zoals lasers,lampen,  sensoren en luidsprekers. In de eerste wave prototypes hebben we de luidspreker ontworpen met alles eraan om een uniform ontwerp te hebben. Elk device was dus uitgerust met de hierboven genoemde technologie. 
+Voor sommige spelletjes zijn er extra devices nodig die in de bomen zullen hangen. Deze kunnen uitgerust worden met verschillende apparatuur zoals lasers, lampen,  sensoren en luidsprekers. In de eerste wave prototypes hebben we de luidspreker ontworpen met alles eraan om een uniform ontwerp te hebben. Elk device was dus uitgerust met de hierboven genoemde technologie. 
 
 Later zijn er tijdens de lessen sprekers van verschillende bedrijven langs gekomen. Bij een persoonlijk gesprek daarna werd ons gevraagd waarom we alle technologie in elk device hebben gestoken. Hierdoor hebben we verder onderzoek gedaan naar onze spelletjes en wat er nodig was bij elk spel. We kwamen hier tot de conclusie dat er maar 1 stuk technologie per boom device nodig is. We hebben toen gekozen om een uniforme doos te maken met het zonnepaneel van boven en een batterij van binnen. Onderaan de doos hangt een klikbevestiging waar de apparatuur aan bevestigd kan worden. Als er een defect is, zal enkel de doos of apparatuur hersteld moeten worden. Voor het welzijn van de bomen wordt er ook gezorgd dat de extra devices met een rekbare strap worden bevestigd aan de bomen. Dit zorgt ervoor dat de boom geen schade zal oplopen bij het verder groeien door de jaren heen.
 
@@ -250,7 +267,7 @@ Later zijn er tijdens de lessen sprekers van verschillende bedrijven langs gekom
 ### Scorebord bediening
 Na het eeste semester is er verder gewerkt op de bediening van het scorenbord. een nieuwe wave van het prototype is gemaakt en zorgt voor verduidelijking op het houten paneel.
 <img src="images/scoreBord.jpg" width="75%"/>
-In develop 2 wordt er onderzocht op welke hoogte het bedieningspaneel bevestigd zal worden. Voor het bedieningspaneel te laten werken is er ook een code geschreven in arduino:
+In develop 1 wordt er onderzocht op welke hoogte het bedieningspaneel bevestigd zal worden. Voor het bedieningspaneel te laten werken is er ook een code geschreven in arduino:
 ```py
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
@@ -553,7 +570,7 @@ void WriteDataToBlock(int blockNum, byte blockData[])
  }
 ```
 
-##Prototypes
+## Prototypes
 Hier worden de finale prototypes nog overlopen
 ### Kiosk
 Voor de kiosk is een aluminium behuizing gekozen om verschillende redenen. Het geeft een moderne look en is weerbestendig waardoor de kiosk duurzamer zou moeten zijn. Bovenaan de kiosk wordt een plantenbak geplaatst waar hangplanten in geplaatst worden zodat de kiosk ook thuishoort in zijn omgeving. 
@@ -572,11 +589,26 @@ De devices zouden uiteindelijk uit een hard plastiek bestaan en zijn uitgerust m
 
 <table border="1">
     <tr>
-        <td><img src="images/extraDevice1.jpg" width="100%"/></td>
+        <td><img src="images/extraDevice1.png" width="100%"/></td>
         <td> <img src="images/extraDevice2.jpg" width="100%"/></td>
         <td> <img src="images/extraDevice3.jpg" width="100%"/></td>
     </tr>
 </table>
+
+### Boom devices
+De Boom devices zijn uitgerust met een batterij binnenin, een zonnepaneel bovenop en een kliksysteem vanonder voor het bevestigen van de benodigde apparatuur. Er kan een variatie van apparatuur aan verbonden worden zoals sensoren, speakers, lampen, camera’s… bij defect van de apparatuur kan deze ook makkelijk vervangen worden zonder alles van de boom te moeten halen. In het finale product zal er ook een mogelijkheid zijn om een groter extern zonnepaneel te gebruiken dat hoger in de boom hangt, deze zal meer licht vallen en zo beter voorkomen dat de devices plat zijn. De devices worden met een rekbare strap aan de boom bevestigd om zo schade aan de boom te vermijden. 
+
+<table border="1">
+    <tr>
+        <td><img src="images/boomDevice1.png" width="100%"/></td>
+        <td> <img src="images/boomDevice2.png" width="100%"/></td>
+    </tr>
+</table>
+
+### Scorebord
+Het scorebord wordt aangestuurd door een bedieningspaneel. Je kan de punten er op aanduiden en een tijdsduur instellen en controleren. Het bedieningspaneel met de knoppen wordt op een hoogte van 125 centimeter. Deze hoogte is bepaald uit develop 2. Het laatste prototype hiervan bestaat uit een houten opstelling en een arduinocode die het aansturen van de score controleert.
+<img src="images/scoreBord2.png" width="100%"/>
+
 ## Bill of materials
 <ul>
     <li>Arduino</li>
@@ -615,6 +647,9 @@ Er moet voor gezorgd worden dat er meer wordt gedocumenteerd. De kleinste dingen
 
 ## Bronnen
 Van Acker, R. (2022). Onderzocht: waarom spelen kinderen niet meer buiten? Geraadpleegd op 17 oktober 2023 via https://www.gezondleven.be/nieuws/onderzocht-waarom-spelen-onze-kinderen-niet-meer-buiten#:~:text=Sommige%20kinderen%20in%20deze%2021,cognitieve%20ontwikkeling%20van%20onze%20kinderen
+
+electro-colli, (2023). https://webshop.electro-colli.be/hoogte-deurbel/#:~:text=Een%20traditionele%20deurbel%20
+
 
 
 ## Bijlagen
