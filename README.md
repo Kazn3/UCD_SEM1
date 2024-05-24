@@ -16,12 +16,12 @@ Aan de hand van deze producten is het de bedoeling om kinderen meer te verleiden
 
 <table border="1">
     <tr>
-        <td>Extra device:</td>
         <td>Boom device:</td>
+        <td>Kiosk:</td>
     </tr>
     <tr>
-        <td><img src="images/afroller.jpg" width="100%"/></td>
-        <td> <img src="images/boomDevice.jpg" width="100%"/></td>
+        <td><img src="images/boomDevice2.png" width="100%"/></td>
+        <td> <img src="images/kiosk3.jpg" width="51%"/></td>
     </tr>
 </table>
 
