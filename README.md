@@ -195,8 +195,16 @@ Om op het einde van de opdracht een zo gebruiksvriendelijk mogelijk ontwerp te m
 ### Materiaal en methoden
 Door middel van figma is er een interface gemaakt. Voor de expert reviews krijgen de gebruikers twee opdrachten die ze moeten volooien. Na het uitvoeren van deze opdrachten krijgen de gebruikers een evaluatieformulier voorgeschoteld. Beide opdrachten hebben aan de hand van Nielsen's heuristieken vragen waarop de gebruiker een score moet geven van 1-5. Hierbij is 1 zeer slecht en 5 zeer goed. 
 
-### Conceptueel model
 ### Resultaten
+Uit de uitgevoerde tests is gebleken dat de interface van de kiosk een heldere en intuïtieve gebruikerservaring biedt. Zonder instructies kunnen gebruikers makkelijk door de verschillende delen van de app navigeren. De integratie van Botty heeft zich bewezen als een waardevol hulpmiddel dat gebruikers effectief door de app leidt, waardoor een vrolijk en speels element aan de beleving wordt toegevoegd, wat met name voor jonge gebruikers een welkome toevoeging vormt.
+
+Ondanks deze positieve bevindingen, zijn er enkele aandachtspunten aan het licht gekomen. Ookaldraagt de aanwezigheid van Botty bij tot een aantrekkelijk ontwerp, wordt opgemerkt dat de kleurensamenstelling enigszins eentonig oogt. Bovendien ontbreekt de interface aan een speels karakter, wat voor een applicatie gericht op kinderen niet de bedoeling is. Een ander aspect dat verbetering behoeft, is de consistentie tussen de pop-upberichten en de rest van de applicatie, aangezien deze momenteel niet op elkaar aansluiten.
+
+Ook is de duidelijkheid van de knoppen binnen de app een pijnpunt. Hoewel gebruikers na verloop van tijd bekend raken met de uniforme vormgeving van de knoppen, valt op dat het in het begin moeilijker is om onderscheid te maken tussen interactieve elementen en statische tekstvakken. 
+
+### Conclusies
+Er zijn enkele aandachtspunten die verbetering behoeven. Ondanks dat Botty het ontwerp aantrekkelijker maakt, komt de kleursamenstelling enigszins saai over en mist de interface een speelse uitstraling. Daarnaast zijn de pop-ups niet in lijn met het thema van de app, wat de coherentie verstoort. Dit geeft de aanleiding om de opmaak van de pop-ups te herbekijken. Tot slot worden de knoppen niet als knop beschouwd. Om de knoppen een duidelijker signaal te geven is er voor gekozen om een schaduwrand er aan toe te voegen. Deze schaduwrand geeft de knop een 3d gevoel wat gebruikers rapper gaat vertellen dat ze indrukbaar zijn.
+
 
 ## Bill of materials
 <ul>
