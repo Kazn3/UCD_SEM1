@@ -625,6 +625,8 @@ In het tweede semester lag de focus voornamelijk op de ontwikkeling van de kiosk
 
 Daarnaast hebben we dit semester kennisgemaakt met de wereld van Arduino. De mogelijkheden die Arduino biedt, zijn eindeloos. Het werken met Arduino was een plezierige en leerzame ervaring. Dit project heeft ons er diepgaand mee laten kennismaken, wat echter ook enkele risico's met zich meebracht. Zoals eerder aangegeven, is een goede tijdsplanning cruciaal, en dat was hier een uitdaging. Het is gemakkelijk om er vele uren in te steken zonder aanzienlijke vooruitgang te boeken.
 
+Daarnaast realiseerden we ons dat we beter gebruik hadden moeten maken van foto's voor onze documentatie. Door foto's te integreren, hadden we een visueel hulpmiddel kunnen creëren dat onze voortgang en eventuele problemen duidelijk vastlegt. Dit zou het delen en bespreken van onze bevindingen makkelijker maken, wat de ontwikkeling meer laat uitblinken.
+
 ## Bronnen
 Van Acker, R. (2022). Onderzocht: waarom spelen kinderen niet meer buiten? Geraadpleegd op 17 oktober 2023 via https://www.gezondleven.be/nieuws/onderzocht-waarom-spelen-onze-kinderen-niet-meer-buiten#:~:text=Sommige%20kinderen%20in%20deze%2021,cognitieve%20ontwikkeling%20van%20onze%20kinderen
 
